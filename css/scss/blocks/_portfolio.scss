@@ -1,0 +1,40 @@
+.portfolio {
+    margin-top: 120px;
+    &__title{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        z-index: 1;
+        @include circle;
+        &::before {
+            left: 50%;
+            transform: translateX(-50%);
+            width: 70px;
+            border-radius: 10px;
+        }
+            
+        }
+    &__subTitle {
+        display: flex;
+        justify-content: center;
+        margin-top: 35px;
+    }
+    &__wrapper_grid {
+        margin-top: 30px;
+        display: grid;
+        grid-template: 1fr / 1fr 1fr 1fr 1fr;
+        column-gap: 30px;
+        row-gap: 30px;
+        img {
+            border: 10px solid transparent;
+            border-radius: 15px;
+            transition: border 0.5s;
+            &:hover {
+                // transition-duration: 0.5s;
+                border: 10px solid $bg-color;
+                // transform: scale(1.2);
+            }
+        }
+        
+    }
+}

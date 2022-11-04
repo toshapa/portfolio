@@ -1,0 +1,18 @@
+.wrap {
+    width: 535px;
+    background-color: $bg_color;
+    padding: 40px;
+    border-radius: 50px;
+    &__btn{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    &__social {
+        padding: 20px 5px;
+        height: 550px;
+        width: 25px;
+    }
+    &__hamburger {
+        padding: 10px 20px;
+    }
+}

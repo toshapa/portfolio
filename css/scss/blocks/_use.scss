@@ -1,0 +1,47 @@
+.skill {
+    margin-top: 120px;
+    &__miniTitle {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: 3;
+        @include circle;
+        &::before {
+            justify-content: center;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -8px;
+        }
+    }
+    &__title {
+        display: flex;
+        margin-top: 15px;
+        justify-content: center;
+    }
+    &__divider {
+        width: 60px;
+        height: 3px;
+        background: $main-color;
+        margin: 20px auto;
+    }
+    &__ulList {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 13px;
+    }
+    &__list {
+        border: 1px solid #000;
+        list-style: none;
+        padding: 30px;
+        &_subTitle {
+            padding-top: 15px;
+            font-family: 'BanderaProMedium';
+        }
+        &_descr {
+            padding-top: 15px;
+            font-family: 'BanderaProThin';
+        }
+    }
+
+}

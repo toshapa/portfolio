@@ -1,0 +1,22 @@
+@mixin circle {
+    &::before {
+        content: '';
+        background: $main_color;
+        width: 36px;
+        height: 36px;
+        position: absolute;
+        bottom: -22%;
+        border-radius: 25%;
+        left: 0;
+        z-index: -1;
+    }
+}
+
+@mixin btn {
+    background: $main_color;
+    padding: 12px 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    border: none;
+}
+

@@ -1,0 +1,178 @@
+@media (max-width: 1399px)
+	.menu
+		&_item
+			padding-right: 33px
+			// padding-top: 
+
+@media (max-width: 1200px)
+	.menu
+		padding-right: 
+		.menu
+			padding-top: 3px
+			&_link
+				font-size: 12px
+			&_item
+				padding-right: 24px
+	.promo	
+		.promo
+			&_descr
+				font-size: 14px
+			&_subheader
+				font-size: 33px
+		.promo_header
+			font-size: 50px
+	.mobile
+		.mobile_item
+			width: 300px
+			
+@media (max-width: 991px)
+	.menu
+		.menu
+			&_link
+				font-size: 11px
+			&_item
+				padding-right: 7px
+	.promo
+		.promo_header
+			font-size: 38px
+		.promo_subheader
+			font-size: 25px
+	.mobile
+		.mobile_item
+			width: 220px
+			height: 220px
+			padding-top: 92px
+		.mobile_item_subtitle
+			font-size: 15px
+	.require
+		padding-top: 20px
+		.require_list
+			padding-left: 20px
+		.require_list, li
+			font-size: 14px				
+	.map
+		min-height: 555px
+		
+		
+		.map_text_blue
+			top:	470px
+			
+	.footer
+		&_nav
+			&_link
+				font-size: 12px
+			&_link2
+				font-size: 7px
+		&_shops
+			.footer_img
+				width: 85%
+	.choice
+		min-height: 790px
+.subheader
+	.subheader_btn
+		width: 128px
+		height: 36px
+		font-size: 11px
+
+
+@media (max-width: 767px)
+	header
+		height: 36px
+		.subheader
+			top: 35px
+			&_logo, img
+				margin-top: 16px
+				width: 115%
+			.small_call
+				display: flex
+				flex-direction: column				
+				justify-content: center
+				align-items: center
+				margin-top: 10px
+				.subheader_btn
+					margin-top: 2px
+		nav
+			background: #212121
+			height: 35px
+			.hamburger
+				display: block
+				position: absolute
+				right: 10px
+				top: 50%
+				transform: translateY(-50%)
+				width: 20px
+				// height: 12px
+				span
+					display: block
+					height: 2px
+					width: 100%
+					background-color: white
+					margin-bottom: 2px
+					transition: 0.5s all
+			.hamburger_active
+				span
+					margin-bottom: -2px
+					&:nth-child(1)
+						transform: translateY(3px) rotate(-45deg)
+					&:nth-child(2)
+						display: none
+					&:nth-child(3)
+						transform: translateY(3px) rotate(45deg)					
+	.menu
+		position: fixed
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		top: 0
+		left: -100%
+		width: 50%
+		height: 100vh
+		font-size: 20px
+		padding: 20px 15px	
+		background-color: rgba(0,0,0, .8 )
+		transition: 0.8s all
+		.menu_item
+			padding-right: 0
+			margin-top: 10px 0
+			border: none
+		.menu_link
+			font-size: 20px
+		&_active
+			left: 0
+	
+	.choice
+		min-height: 680px
+		&_img
+			width: 350px
+		&_gridbg_text
+			margin-top: 70px
+	.xs-hidden
+		display: none
+	.xs-visible
+		display: block
+
+
+	.start
+		.row
+			justify-content: center
+			.start_round
+				margin-bottom: 15px
+	.start, .row
+		padding: 0 20px
+	.require
+		&_block
+			padding: 0 30px
+	
+	.mobile
+		.mobile_item
+			width: 350px
+			height: 350px
+
+
+	
+
+
+	@media (width: 320px)
+		.start, .row
+			padding: 0
+
