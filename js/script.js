@@ -40,7 +40,7 @@ async function formSend (e) {
         let object = {};
         formData.forEach((value, key) => {object[key] = value})
         console.log(JSON.stringify(object));
-        let response = fetch ('../send3.php',{
+        let response = fetch ('../send2.php',{
             method: 'POST',
             body: JSON.stringify(object)
         });
