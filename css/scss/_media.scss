@@ -221,7 +221,12 @@
         }
 
     }
-
+    .skill {
+        &__wrapTitle {
+            display: flex;
+            text-align: center;
+        }
+    }
     .portfolio {
         &__wrapper_grid {
             grid-template: 2fr/1fr;
@@ -238,6 +243,7 @@
         max-width: 280px;
         
     }
+
     .promo {
         .container .wrap {
             width: 200px;
