@@ -40,6 +40,11 @@
     &__introduction {
         padding-top: 20px;
         font-family: 'BanderaProThin';
+        a {
+            text-decoration: none;
+            font-family: 'BanderaProMedium';
+            color: #000;
+        }
         
     }
 
