@@ -21,7 +21,7 @@
         }
     }
     &__title {
-        font-family: 'BanderaProMedium';
+        font-family: 'Montserrat-Medium';
         position: relative;
         font-size: 20px;
         padding-top: 5px;
@@ -36,7 +36,7 @@
     }
     &__withMe {
         font-size: 50px;
-        font-family: 'BanderaProThin';
+        font-family: 'Montserrat-Light';
     }
     &__divider {
         width: 50px;
@@ -46,7 +46,7 @@
     }
     &__likeUWant {
         margin-top: 15px;
-        font-family: 'BanderaProThin';
+        
     }
     &__messenger_container {
         display: flex;
@@ -60,7 +60,7 @@
     }
     &__linkOr {
         margin-top: 20px;
-        font-family: 'BanderaProThin';
+        font-family: 'Montserrat-Light';
     }
 
     &__form {
@@ -89,12 +89,12 @@
             box-shadow: none;
             border-radius: 5px;
             padding: 0 15px;
-            font-family: "BanderaProThin";            
+            font-family: "Montserrat-Light";            
         }
         label {
             display: block;
             position: absolute;
-            width: 85px;
+            width: 75px;
             height: 18px;
             font-size: 12px;
             top: -8px;
@@ -115,7 +115,7 @@
             height: 100%;
             width: 100%;
             resize: none;
-            font-family: "BanderaProThin";
+            font-family: "Montserrat-Light";
             background-color: $bg-color;
             border: 1px solid rgba(0, 0, 0, 0.2);
             border-radius: 5px;
@@ -129,7 +129,7 @@
         label {
             display: block;
             position: absolute;
-            width: 150px;
+            width: 110px;
             left: 0px;
             height: 18px;
             font-size: 12px;

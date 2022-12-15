@@ -4,7 +4,7 @@
     position: fixed;
     justify-content: space-between;
     align-items: center;
-    height: 350px;
+    height: 290px;
     &__divider {
         height: 70px;
         width: 5px;
@@ -12,9 +12,11 @@
         border-radius: 10px;
     }
     &__title {
-        transform: rotate(-90deg) translate(5%, 43%);
+        font-family: 'Montserrat-Medium';
+        
+        transform: rotate(-90deg) translate(-2%, 40%);
         display: block;
-        width: 160px;
-        height: 150px;
+        width: 105px;
+        height: 100px;
     }
 }

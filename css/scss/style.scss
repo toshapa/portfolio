@@ -1,51 +1,27 @@
+
 @font-face {
-    font-family: 'BanderaPro-Bold';
-    src: url('../fonts/BanderaPro-Bold.ttf');
-    font-weight: bold;
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular.ttf')
 }
 @font-face {
-    font-family: 'BanderaPro-BoldItalic';
-    src: url('../fonts/BanderaPro-BoldItalic.ttf');
+    font-family: 'Montserrat-Medium';
+    src: url('../fonts/Montserrat-Medium.ttf');
 }
 @font-face {
-    font-family: 'BanderaPro-Italic';
-    src: url('../fonts/BanderaPro-Italic.ttf');
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.ttf');
 }
 @font-face {
-    font-family: 'BanderaPro';
-    src: url('../fonts/BanderaPro.ttf');
+    font-family: 'Montserrat-Black';
+    src: url('../fonts/Montserrat-Black.ttf');
 }
 @font-face {
-    font-family: 'BanderaProHeavy-Italic';
-    src: url('../fonts/BanderaProHeavy-Italic.ttf');
+    font-family: 'Montserrat-Light';
+    src: url('../fonts/Montserrat-Light.ttf');
 }
 @font-face {
-    font-family: 'BanderaProHeavy';
-    src: url('../fonts/BanderaProHeavy.ttf');
-}
-@font-face {
-    font-family: 'BanderaProLight-Italic';
-    src: url('../fonts/BanderaProLight-Italic.ttf');
-}
-@font-face {
-    font-family: 'BanderaProLight';
-    src: url('../fonts/BanderaProLight.ttf');
-}
-@font-face {
-    font-family: 'BanderaProMedium-Italic';
-    src: url('../fonts/BanderaProMedium-Italic.ttf');
-}
-@font-face {
-    font-family: 'BanderaProMedium';
-    src: url('../fonts/BanderaProMedium.ttf');
-}
-@font-face {
-    font-family: 'BanderaProThin-Italic';
-    src: url('../fonts/BanderaProThin-Italic.ttf')
-}
-@font-face {
-    font-family: 'BanderaProThin';
-    src: url('../fonts/BanderaProThin.ttf');
+    font-family: 'Montserrat-SemiBold';
+    src: url('../fonts/Montserrat-SemiBold.ttf');
 }
 
 @import 'variables';
@@ -54,8 +30,7 @@
 
 
 * {
-    font-family: 'BanderaPro';
-    font-weight: bold;
+    font-family: 'Montserrat-Regular';
     margin: 0;
     padding: 0;
 }

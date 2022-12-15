@@ -16,7 +16,7 @@
         padding-left: 70px;
     }
     &__subTitle {
-        font-family: "BanderaProMedium";
+        font-family: "Montserrat-Medium";
         position: relative;
         font-size: 20px;
         z-index: 2;
@@ -28,7 +28,7 @@
     }
     &__title {
         font-size: 36px;
-        font-family: "BanderaPro-Bold";
+        font-family: "Montserrat-Medium";
         padding-top: 10px;
     }
     &__divider {
@@ -39,10 +39,10 @@
     }
     &__introduction {
         padding-top: 20px;
-        font-family: 'BanderaProThin';
+        font-family: 'Montserrat-Light';
         a {
             text-decoration: none;
-            font-family: 'BanderaProMedium';
+            font-family: 'Montserrat-Medium';
             color: #000;
         }
         
@@ -64,7 +64,7 @@
 
         &_mainTitle {
             position: relative;
-            font-family: 'BanderaProHeavy';
+            font-family: 'Montserrat-Bold';
             margin-top: 35px;
             margin-left: 15px;
             z-index: 2;
@@ -113,19 +113,19 @@
         
         &_title {
             padding-left: 20px;
-            font-family: 'BanderaProHeavy';
+            font-family: 'Montserrat-Medium';
         }
         &_prof,&_subTitle,&_descr {
-            font-family: 'BanderaProThin';
+            font-family: 'Montserrat-Light';
             padding-left: 20px;
         }
         &_prof {
-            font-family: 'BanderaProHeavy';
+            font-family: 'Montserrat-SemiBold';
             font-size: 12px;
             
         }
         &_descr {
-            font-size: 15px;
+            font-size: 13px;
         }
         &_icon {
             margin-left: 30px;
